@@ -150,14 +150,16 @@ if(!empty($_SESSION['uname']))
 
         <!-- end:header-top -->
 
-        <div class="alert alert-success" id="alert-box" role="alert">
-          <h4 class="alert-heading">
+        <!-- <div class="alert alert-success" id="alert-box" role="alert">
+          <h4 class="alert-heading"><?php
+          echo "Welcome! " . $_SESSION['uname'];  ?></h4>
+          <p>You successfully Logged in our Website.</p>
           <hr>
           <form action="logout.php">
             <input type="submit" class="btn" name="submit" value="Logout">
           </form>
-          <!-- <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p> -->
-        </div>
+         <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p> -->
+        <!-- </div> -->
 
         <aside id="fh5co-hero" class="js-fullheight">
           <div class="flexslider js-fullheight">
